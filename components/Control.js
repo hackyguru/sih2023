@@ -9,7 +9,7 @@ export default function Control() {
                         <h1 className='title'>Whitelist</h1>
                         <div className='flex space-x-2 text-green-700'>
                             <svg width="25" height="25" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 12l4.243 4.243l8.484-8.486" />
+                                <path fill="none" stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" d="m6 12l4.243 4.243l8.484-8.486" />
                             </svg>
                             <h1 className='desc'>Data synced in blockchain</h1>
                         </div>
@@ -35,7 +35,8 @@ export default function Control() {
                     </div>
                     <hr className='border-gray-300 my-2' />
 
-                </div>            </div>
+                </div>
+            </div>
             <div className='bg-[#FC7944] mx-auto container mt-10 p-5 h-96 rounded-xl'>
                 <h1 className='title text-black'>Information gathering</h1>
                 <hr className='border-black my-2' />
@@ -45,7 +46,7 @@ export default function Control() {
                         <div className='flex space-x-10 items-center'>
                             <h1>DD/MM/YY</h1>
                             <svg className='text-red-500' width="25" height="25" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                <g fill="none" stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="1.5">
                                     <path d="M12 7.627v5.5m0 3.246v-.5" />
                                     <circle cx="12" cy="12" r="9" />
                                 </g>
